@@ -62,16 +62,26 @@ onMounted(() => {
                         </div>
                     </div>
 
-                    <DotsHorizontal class="cursor-pointer" :size="27"/>
+                    <DotsHorizontal class="cursor-pointer" :size="27" />
                 </div>
 
                 <div class="bg-black rounded-lg w-full min-h-[400px] flex items-center">
                     <img class="mx-auto w-full" src="https://picsum.photos/id/50/300/320" />
                 </div>
 
-                <LikesSection/>
+                <LikesSection />
 
+                <div class="text-black font-extrabold py-1">3 likes</div>
+                <div>
+                    <span class="text-black font-extrabold">User Name</span>
+                    this is some text here
+                </div>
+                <button class="text-gray-500 font-extrabold py-1">
+                    View all 5 comments
+                </button>
             </div>
+
+            <div class="pb-20"></div>
         </div>
     </MainLayout>
 </template>
